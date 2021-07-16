@@ -1,0 +1,159 @@
+body{
+    align-items: center;
+    background-color: rgb(223, 217, 217);
+}
+.heading
+{
+    margin: 0px 5px;
+    color: black;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(94, 24, 141);
+}
+.table{
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    height: 250px;
+    width: 250px;
+    border-style: outset ;
+    border-width: 20px;
+}
+th{
+    /* background-color: rgb(153, 149, 149); */
+    width: 60px;
+    height: 60px;
+    font-size: 30pt;
+    border-color: rgb(35, 5, 146);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgb(73, 65, 110) 1px -1px 5px,rgb(93, 79, 156) -1px 1px 5px;
+}
+th:hover
+{
+    box-shadow: rgb(73, 65, 110) .5px -.5px 4px,rgb(73, 65, 110) -.5px .5px 4px;
+}
+th:active
+{
+    
+    box-shadow: rgb(73, 65, 110) 2px -2px 8px,rgb(93, 79, 156) -2px 2px 8px;
+    
+}
+
+.main-box
+{
+    height: 240px;
+    width: 500px;
+  
+   
+}
+
+#player1 {
+    background-color:white;
+    box-shadow:rgb(99, 97, 97) 2px 2px 10px;
+    float: left;
+    height: 240px;
+    width: 150px;
+    text-align: center;
+    color: black;
+    font-size:20pt;
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+#player2{
+    background-color:white;
+    float :right;
+    box-shadow: rgb(63, 59, 85, 0.527) 2px -2px 10px,rgba(63, 59, 85, 0.527) -2px 2px 10px;
+    height: 240px;
+    width: 150px;
+    text-align: center;
+    color: black;
+    font-size:20pt;
+}
+
+
+#message{
+    width: 600px;
+    height: 45px;
+    text-align: center;
+    font-size: 25pt;
+    background-color: rgb(98, 155, 165);
+    font-weight: bolder;
+    border: groove wheat 5px;
+    border-radius: 10px;
+    margin-top:25px;
+    padding: 0px 5px;
+}
+#gamestater{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 30pt;
+    background-color: green;
+    font-weight: bolder;
+    border: groove wheat 5px;
+    border-radius: 50px;
+    margin-top: 5px;
+    background: linear-gradient(to right ,green, rgba(0, 128, 0, 0.95), rgba(0, 128, 0, 0.65),rgba(0, 128, 0, 0.95),green);
+}
+#gamestater:hover {
+   opacity: .9;
+}
+#gamestater:active{
+    box-shadow: rgb(63, 59, 85, 0.527) 1px -1px 5px,rgba(63, 59, 85, 0.527) -1px 1px 5px;
+    
+    
+    
+    color: blue;
+ }
+
+.turn{
+    border: solid 2px red;
+}
+@media screen and (max-width: 650px) {
+    
+.heading
+{
+    font-size:25pt;
+   
+}
+    .table{
+        margin-top: 10px;
+    }
+    #message{
+       font-size: 23pt;
+      width: fit-content;
+      height: fit-content;
+    }
+    
+#gamestater{
+    width: 330px
+    font: size 25pt;
+    height: fit-content;
+}
+
+.main-box
+{
+    height: 160px;
+    width: 300px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+  }
+#player1{
+    font-size: 18px;
+    height: 160px;
+    width: 100px;
+}
+#player2{
+    font-size: 18px;
+    height: 160px;
+    width: 100px;
+}
+
+}
+
+

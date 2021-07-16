@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <center>
+    <h1 class="heading">Welcome To My Tic-Tac-Toe Game !!</h1>
+
+
+    <div  class="tablebox itom" align=center>
+        <table class="table" cellspacing="10">
+            <tr>
+                <th id="s1" onclick="nextmove(this)"></th>
+                <th id="s2" onclick="nextmove(this)"></th>
+                <th id="s3" onclick="nextmove(this)"></th>
+            </tr>
+            <tr> 
+                <th id="s4" onclick="nextmove(this);"></th>
+                <th id="s5" onclick="nextmove(this);"></th>
+                <th id="s6" onclick="nextmove(this);"></th>
+            </tr>
+            <tr>
+                <th id="s7" onclick="nextmove(this);"></th>
+                <th id="s8" onclick="nextmove(this);"></th>
+                <th id="s9" onclick="nextmove(this);"></th>
+            </tr>
+        </table>
+    </div>
+
+<div class="main-box">
+
+    <div id="player1">
+        <img src="player1.png"><br>
+        <b class="playername1">Player-1 ('🙋‍♂️')</b>
+    </div>
+
+    <div id="player2">
+        <img src="player2.png" ><br>
+        <b class="playername2">Player-2 ('🙋🏻')</b>
+    </div>
+
+</div>
+
+
+
+
+  <div id="message" X starts the game></div><br>
+
+  <div id="gamestater" onclick="startGame();">Start Game</div>
+  
+<div class="copyright" style="margin-top: 50px;">© - Praduman2k19</div>
+  </center>
+    <script src="index.js"></script>
+</body>
+</html>
